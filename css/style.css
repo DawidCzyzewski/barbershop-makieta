@@ -1,0 +1,77 @@
+:root {
+  --darkgrey: #757575;
+  --grey: #f5f4fa;
+}
+*,
+:before,
+:after {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-size: 35px;
+  color: white;
+  padding: 80px 0 45px;
+  text-align: center;
+}
+.background {
+  background-image: url("../images/background.jpg");
+}
+.flex-all {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1200px;
+  width: auto;
+  margin: 150px auto 0;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section {
+  padding: 50px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.reservation {
+  background-color: var(--darkgrey);
+  background-image: url("./../images/reserve.jpg");
+  background-size: cover;
+  width: 50%;
+}
+.contact {
+  background-color: var(--darkgrey);
+  background-image: url("./../images/contact.jpg");
+  background-size: cover;
+  width: 50%;
+}
+.text {
+  color: var(--grey);
+}
+.address-list-item {
+  padding: 15px 0;
+}
+.footer {
+  background-color: var(--grey);
+}
+.footer.container {
+  margin-top: 0;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+}
+social-link-item {
+  font-size: 20px;
+}
